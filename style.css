@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #6a3e2a;
+    transform: scale(1.1);
+}
+
+#product-gallery {
+    margin-top: 40px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+    transform: scale(1.1);
+}
+
+#slideshow {
+    margin-top: 40px;
+}
+
+.mySlides {
+    display: none;
+}
+
+#tabs {
+    margin-top: 40px;
+}
+
+.tabs button {
+    padding: 10px;
+    background-color: #2d2d2d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+    background-color: #8b4513;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#feedback-form {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #6a3e2a;
+}
+
